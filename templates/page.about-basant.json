@@ -1,0 +1,583 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "slideshow_kXteHh": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_fJAfUf": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-26T103449.397.png",
+            "mobile_image": "shopify:\/\/shop_images\/image_-_2024-12-26T103449.397.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_fJAfUf"
+      ],
+      "custom_css": [
+        ".slideshow__text-wrapper {display: none;}"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "video_image_with_text_VMa4wQ": {
+      "type": "video-image-with-text",
+      "blocks": {
+        "heading_AizqXC": {
+          "type": "heading",
+          "settings": {
+            "heading": "Does HPV Impact Only Women, or Are Men at Risk as Well?",
+            "heading_size": "h2"
+          }
+        },
+        "text_Pab7R6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>No, HPV affects both men and women. While HPV is often associated with cervical cancer in women, the virus can cause health issues in men as well, including genital warts and cancers of the penis, anus, and throat. Both genders are at risk of HPV-related diseases, and vaccination is recommended for everyone to reduce the risk of infection and associated health problems.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "right_heading_4Kdr8Q": {
+          "type": "right_heading",
+          "settings": {
+            "heading": "-- Dr. Archana",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_AizqXC",
+        "text_Pab7R6",
+        "right_heading_4Kdr8Q"
+      ],
+      "settings": {
+        "custom_liquid_top": "",
+        "custom_liquid_top_inner": "",
+        "title": "",
+        "heading_size": "h1",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "enable_video_looping": false,
+        "video": "shopify:\/\/files\/videos\/WhatsApp Video 2025-01-01 at 14.44.57 (2).mp4",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_liquid_bottom_inner": "",
+        "custom_liquid_bottom": "<div class=\"page-width\">\n<div class=\"horiontal-line-draw\">\n<\/div>\n<\/div>"
+      }
+    },
+    "latest_image_with_text_cHKmAV": {
+      "type": "latest-image-with-text",
+      "blocks": {
+        "heading_bmmPex": {
+          "type": "heading",
+          "settings": {
+            "heading": "Basant",
+            "heading_size": "h1"
+          }
+        },
+        "text_heTTCR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Basant is  a clinically proven polyherbal formulation which prevents the entry of HPV-16 in cervical cells, and is proven to be effective in eliminating HPV-16 from infected cervical cells on path of progression to carcinoma of Cervix.<\/p><p>Basant prevents sexually transmitted infections: Gonorrhea, Chlamydia, Candida, H.I.V. <\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_bmmPex",
+        "text_heTTCR"
+      ],
+      "settings": {
+        "custom_liquid_top": "",
+        "custom_liquid_top_inner": "",
+        "custom_class": "normal-image-with-text-right",
+        "image": "shopify:\/\/shop_images\/image_-_2024-12-26T102954.528.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_liquid_bottom_inner": "",
+        "custom_liquid_bottom": "<div class=\"page-width\">\n<div class=\"horiontal-line-draw\">\n<\/div>\n<\/div>"
+      }
+    },
+    "latest_image_with_text_rQ4AEE": {
+      "type": "latest-image-with-text",
+      "blocks": {
+        "heading_azCEp8": {
+          "type": "heading",
+          "settings": {
+            "heading": "Clinical results ",
+            "heading_size": "h2"
+          }
+        },
+        "text_p7K8b3": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Basant inhibits the entry of HPV 16 in Hela cells as observed by Dr. Schiller at NIH, Bethesda [1].<\/li><li>Basant eliminates HPV16 from infected cervical cells on path of progression to carcinoma of Cervix.(1)<\/li><li>Basant has inhibitory action on a wide spectrum of genital pathogens: Neisseria gonorrhoeae, all strains of WHO and those resistant to various antibiotics such as Penicillin, Tetracycline, Nalidixic acid and Ciprofloxacin [1].<\/li><li>It has pronounced inhibitory action against Candida glabrata, Candida albicans and Candida tropicalis isolated from women with vulvovaginal candidiasis, including three isolates resistant to azole drugs and amphotericin [3].<\/li><li>Basant inhibits Chlamydia trachomatis, whether present in free-state or within a cell [3]. It is highly effective for treatment of recurring episodes of Vaginosis and restoring healthy vagina.<\/li><li>Basant inhibits HIV-1 at the early stage of infection. What is more, it is effective against HIV strains employing both CCR5 and CXCR4 receptors for entry into blood cells. It is effective against primary isolates of different clades [4]<\/li><\/ul>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_azCEp8",
+        "text_p7K8b3"
+      ],
+      "settings": {
+        "custom_liquid_top": "",
+        "custom_liquid_top_inner": "",
+        "custom_class": "normal-image-with-text-right",
+        "image": "shopify:\/\/shop_images\/image_-_2024-12-26T104056.721.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_liquid_bottom_inner": "",
+        "custom_liquid_bottom": "<div class=\"page-width\">\n<div class=\"horiontal-line-draw\">\n<\/div>\n<\/div>"
+      }
+    },
+    "rich_text_fNGJbV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_96DHhC": {
+          "type": "heading",
+          "settings": {
+            "heading": "Composition",
+            "heading_size": "h2"
+          }
+        },
+        "text_7qQKKe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Basant is composed of highly purified Curcumin , extracts of Amla (Emblica officinalis), Aloe vera (Aloe barbadensis) and Azadirachta indica (Neem) leaves along with pharmacopoeially approved excipients<\/p>"
+          }
+        },
+        "image_aYcHRn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-26T111401.847.png"
+          }
+        }
+      },
+      "block_order": [
+        "heading_96DHhC",
+        "text_7qQKKe",
+        "image_aYcHRn"
+      ],
+      "settings": {
+        "custom_liquid_top": "",
+        "custom_liquid_top_inner": "",
+        "real_full_width": true,
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "custom_liquid_bottom_inner": "",
+        "custom_liquid_bottom": ""
+      }
+    },
+    "latest_image_with_text_H7Kta4": {
+      "type": "latest-image-with-text",
+      "blocks": {
+        "heading_6zAiLQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Packing – 30 capsules",
+            "heading_size": "h2"
+          }
+        },
+        "text_cRFMWF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Basant is packaged in easily dispersing cellulose capsules, which can be intra vaginally administered with ease . These are fully safe and non-irritating<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6zAiLQ",
+        "text_cRFMWF"
+      ],
+      "settings": {
+        "custom_liquid_top": "<div class=\"page-width\">\n<div class=\"horiontal-line-draw\">\n<\/div>\n<\/div>",
+        "custom_liquid_top_inner": "",
+        "custom_class": "normal-image-with-text-right",
+        "image": "shopify:\/\/shop_images\/image_-_2024-12-26T104340.387.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_liquid_bottom_inner": "",
+        "custom_liquid_bottom": "<div class=\"page-width\">\n<div class=\"horiontal-line-draw\">\n<\/div>\n<\/div>"
+      }
+    },
+    "latest_image_with_text_hUegxt": {
+      "type": "latest-image-with-text",
+      "blocks": {
+        "heading_qjVrNC": {
+          "type": "heading",
+          "settings": {
+            "heading": "Dosage",
+            "heading_size": "h2"
+          }
+        },
+        "text_bMnJdb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>H.P.V- It is  advised to administer  a capsule of Basant intra vaginally every night before going to bed for continues 30 days, excluding the days of menstruation.<\/p><p>Vaginosis - Intra-vaginal administration of BASANT + combination of 3 probiotic strains for 7 nights <\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qjVrNC",
+        "text_bMnJdb"
+      ],
+      "settings": {
+        "custom_liquid_top": "",
+        "custom_liquid_top_inner": "",
+        "custom_class": "normal-image-with-text-right",
+        "image": "shopify:\/\/shop_images\/image_-_2024-12-26T104448.635.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_liquid_bottom_inner": "",
+        "custom_liquid_bottom": "<div class=\"page-width\">\n<div class=\"horiontal-line-draw\">\n<\/div>\n<\/div>"
+      }
+    },
+    "latest_image_with_text_LnU7dy": {
+      "type": "latest-image-with-text",
+      "blocks": {
+        "heading_pk9tRr": {
+          "type": "heading",
+          "settings": {
+            "heading": "BASANT exercises both Preventive and Therapeutic action against Human Papilloma Virus (HPV)",
+            "heading_size": "h2"
+          }
+        },
+        "text_CGA7YK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>HPV-16 and HPV-18 are amongst the most dominant strains of HPV, which lead to carcinoma of cervix, the major reproductive tract cancer of women. John Schiller at the National Cancer Institute, NIH, Bethesda USA observed that 2 ingredients of BASANT namely Amla (Emblica officinalis) and Aloe vera (Aloe barbadensis) inhibit the transduction of HPV-16 in Hela cells at concentrations far below those that are cytotoxic and those used in the formulation [1]. BASANT inhibits the entry of the highly pathogenic strain of HPV-16 in cervical cells. What is further amazing is that BASANT eliminates HPV-16 from infected cervical cells on path of progression to carcinoma of cervix till the stage that virus is not yet integrated into the host genome. The virus is expelled and Pap smear is rendered normal by 30 night intake of BASANT capsule [5].<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_pk9tRr",
+        "text_CGA7YK"
+      ],
+      "settings": {
+        "custom_liquid_top": "",
+        "custom_liquid_top_inner": "",
+        "custom_class": "normal-image-with-text-right",
+        "image": "shopify:\/\/shop_images\/image_-_2024-12-26T104723.821.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 8,
+        "custom_liquid_bottom_inner": "",
+        "custom_liquid_bottom": ""
+      }
+    },
+    "latest_image_with_text_Mp6cXU": {
+      "type": "latest-image-with-text",
+      "blocks": {
+        "text_nGhJXY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A clinical trial was conducted at the Jawaharlal Nehru Medical College Aligarh, Uttar Pradesh along with the Institute of Cytology and Preventive Oncology of the Indian Council of Medical Research. One hundred fifty nine women coming for various types of treatment to the Obstetrics and Gynaecology Clinic were examined clinically by visual inspection of cervix and by staining with acetic acid. Cervical scraps were collected from the ectocervical region and endo-cervical canal to prepare Pap smears. 35 Women who had inflammatory cervix and abnormal Pap smear were enrolled. Out of these 19 women were positive for HPV-16. Eleven of these women gave written consent to undergo intravaginal treatment with BASANT. They were advised to insert a capsule of BASANT in the vagina every night before going to bed for 30 days continues, excluding the days of menstruation. Table 1 given below summarizes the observations.<\/p><p>Most amazing was the observation that every woman (11\/11) who used BASANT had no HPV-16 in their cervical cells. Pap smear was rendered normal in each case.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_nGhJXY"
+      ],
+      "settings": {
+        "custom_liquid_top": "",
+        "custom_liquid_top_inner": "",
+        "custom_class": "normal-image-with-text-right",
+        "image": "shopify:\/\/shop_images\/image_-_2024-12-26T104913.674.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 8,
+        "padding_bottom": 36,
+        "custom_liquid_bottom_inner": "",
+        "custom_liquid_bottom": ""
+      }
+    },
+    "rich_text_j9y9pL": {
+      "type": "rich-text",
+      "blocks": {
+        "text_cXLXBc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Table 1: Pre and post treatment with BASANT of HPV-16 positive patients [5]<\/p>"
+          }
+        },
+        "image_iCMLJm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-26T111728.498.png"
+          }
+        }
+      },
+      "block_order": [
+        "text_cXLXBc",
+        "image_iCMLJm"
+      ],
+      "settings": {
+        "custom_liquid_top": "",
+        "custom_liquid_top_inner": "",
+        "real_full_width": false,
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_liquid_bottom_inner": "",
+        "custom_liquid_bottom": "<div class=\"page-width\">\n<div class=\"horiontal-line-draw\">\n<\/div>\n<\/div>"
+      }
+    },
+    "rich_text_agp43x": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6tHYEB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Inhibitory action on HIV",
+            "heading_size": "h2"
+          }
+        },
+        "text_bDAKha": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The ability of BASANT to inhibit HIV has been documented by a variety of investigations. At 1000 fold dilution, Gustavo Doncel at CONRAD observed that it inhibits totally this virus in 2 types of cells as hosts. Prof. Manoj Pastey at the University of Oregon, USA has reported that BASANT exercises inhibitory action against various HIV strains entering the blood lymphocytes employing either CXCR4 or CCR5 receptors [4]. Dr. Smita Kulkarni at the National Institute of Virology, Pune observed that BASANT inhibits HIV-1 replication in Epi vaginal explants model.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6tHYEB",
+        "text_bDAKha"
+      ],
+      "settings": {
+        "custom_liquid_top": "",
+        "custom_liquid_top_inner": "",
+        "real_full_width": true,
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 20,
+        "custom_liquid_bottom_inner": "",
+        "custom_liquid_bottom": ""
+      }
+    },
+    "rich_text_wqnJG4": {
+      "type": "rich-text",
+      "blocks": {
+        "image_B3wUPD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-26T111953.958.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_B3wUPD"
+      ],
+      "settings": {
+        "custom_liquid_top": "",
+        "custom_liquid_top_inner": "",
+        "real_full_width": false,
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 36,
+        "custom_liquid_bottom_inner": "",
+        "custom_liquid_bottom": "<div class=\"page-width\">\n<div class=\"horiontal-line-draw\">\n<\/div>\n<\/div>"
+      }
+    },
+    "latest_image_with_text_XrF3en": {
+      "type": "latest-image-with-text",
+      "blocks": {
+        "heading_nzgRYf": {
+          "type": "heading",
+          "settings": {
+            "heading": "BASANT cures recurrent episodes of Vaginosis",
+            "heading_size": "h2"
+          }
+        },
+        "text_AKUKjB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Vaginosis is prevalent in about 30% of women in cities and in about 50% of women in rural locations in India [6,7]. Even in USA, 29% of women suffer from it [8]. It is manifested as abnormal vaginal discharge with presence of Clue cells and the pH of the vagina is above 5. At times foul odour emanates from the vagina.<\/p><p>Intra-vaginal intake of BASANT for 7 nights cures 70% of women suffering from Vaginosis . Combination of BASANT with 3 selected Probiotic strains of meritorious properties , raises the cure rate to 95%. Nearly every woman recovers from Vaginosis [9].<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nzgRYf",
+        "text_AKUKjB"
+      ],
+      "settings": {
+        "custom_liquid_top": "",
+        "custom_liquid_top_inner": "",
+        "custom_class": "normal-image-with-text-right",
+        "image": "shopify:\/\/shop_images\/image_-_2024-12-26T110227.547.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_liquid_bottom_inner": "",
+        "custom_liquid_bottom": ""
+      }
+    },
+    "rich_text_QbAXT9": {
+      "type": "rich-text",
+      "blocks": {
+        "text_fYKGtU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>References <\/p><ol><li>Talwar GP, Dar SA, Rai MK, Reddy KV, Mitra D, et al. (2008) A novel Polyherbal microbicide with inhibitory effect on bacterial, fungal and viral genital pathogens. Int J Antimicrob Agents 32(2): 180-185.<\/li><li>Garg KB, Ganguli I, Ram Das, Kriplani A, Lohiya NK, et al. (2009) Metabolic properties of lactobacilli in women experiencing recurring episodes of bacterial vaginosis with vaginal pH≥5. Eur J clin Microbiol Infect Dis 29(1): 123-125.<\/li><li>Bhengraj AR, Dar SA, Talwar GP, Mittal A (2008) Potential of a novel polyherbal formulation BASANT for prevention of Chlamydia trachomatis infection. Int J Antimicrob Agents 32(1): 84-88.<\/li><li>Maselko MB, Joshic RS, Prescott M, Talwar GP, Kulkarni S, et al. (2014) Basant, a polyherbal topical microbicide candidate inhibits different clades of both ccr5 and cxcr4 tropic, lab-adapted and primary isolates of human immunodeficiency virus-1 in vitro infection. J Virol Antivir Res 3(4): 3.<\/li><li>Talwar GP, Sharma R, Singh S, Das BC, Bharti AC and Sharma K, et al.  BASANT, a Polyherbal Safe Microbicide Eliminates HPV-16 in Women with Early Cervical Intraepithelial Lesions. Journal of Cancer Therapy. 2015;6:1163-1166. Doi: 10.4236\/jct.2015.614126.<\/li><li>Bhujwala RA, Buckshee K and Shriniwas. Gardnerella Vaginitis and associated aerobic bacterial in nonspecific Vaginitis. Ind J Med Res. 1985;81: 251-256.<\/li><li>Bang RA, Bang AT, Baitule M, Sarmukaddam S, Choudhary Y and Tale O. High prevalence of gynecological diseases in rural Indian women. The Lancet. 1989;1(8629):85-88.<\/li><li>Cudmore SL, Delgaty KL, Hayward-McClelland SF, Petrin DP and Garber GE. Treatment of infections caused by Metronidazole-resistant Trichomonas vaginalis. Clin Microbiol Rev. 2004;17(4):783–793.<\/li><li>Talwar GP, Kavita G, Atrey N, Singh P, Gaur J and Jagdish CG, et al.  A Safe Wide Spectrum Polyherbal Microbicide and Three Meritorious Strains of Probiotics for Regressing Infections and Restoration of Vaginal Health (Regression of Vaginosis with BASANT and Probiotics). J Women’s Health Care. 2015;4(5):256. Doi:10.4172\/2167-0420.1000256.<\/li><\/ol>"
+          }
+        }
+      },
+      "block_order": [
+        "text_fYKGtU"
+      ],
+      "settings": {
+        "custom_liquid_top": "",
+        "custom_liquid_top_inner": "",
+        "real_full_width": true,
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "custom_liquid_bottom_inner": "",
+        "custom_liquid_bottom": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_kXteHh",
+    "video_image_with_text_VMa4wQ",
+    "latest_image_with_text_cHKmAV",
+    "latest_image_with_text_rQ4AEE",
+    "rich_text_fNGJbV",
+    "latest_image_with_text_H7Kta4",
+    "latest_image_with_text_hUegxt",
+    "latest_image_with_text_LnU7dy",
+    "latest_image_with_text_Mp6cXU",
+    "rich_text_j9y9pL",
+    "rich_text_agp43x",
+    "rich_text_wqnJG4",
+    "latest_image_with_text_XrF3en",
+    "rich_text_QbAXT9"
+  ]
+}

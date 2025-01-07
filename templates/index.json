@@ -1,0 +1,540 @@
+{
+  "sections": {
+    "slideshow_i3Y8Ti": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_fRY4WF": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bannersss.png",
+            "mobile_image": "shopify:\/\/shop_images\/bannersss.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_fRY4WF"
+      ],
+      "custom_css": [
+        ".slideshow__text-wrapper {display: none;}"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "image_with_text_8ae3Pf": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_MgEnWd": {
+          "type": "heading",
+          "settings": {
+            "heading": "Clinical Reports",
+            "heading_size": "h2"
+          }
+        },
+        "text_KkUUJt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>BASANT, a Polyherbal Safe Microbicide Eliminates HPV-16 in Women with Early Cervical Intraepithelial Lesions .G.P. Talwar*1, Jagdish C. Gupta1, Kavita Garg1, D. Mitra2, R. Sharma3, Alka Kriplani4 and Indrani Ganguly5 1 Talwar Research Foundation, , International Journal of Sexual Health and Reproductive Health Care<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_MAgzyK": {
+          "type": "button",
+          "settings": {
+            "button_label": "View Reports",
+            "button_link": "#",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_MgEnWd",
+        "text_KkUUJt",
+        "button_MAgzyK"
+      ],
+      "custom_css": [
+        ".normal-back-img {display: block !important;}"
+      ],
+      "settings": {
+        "custom_liquid_top": "",
+        "custom_liquid_top_inner": "",
+        "custom_class": "normal-image-with-text-left",
+        "image": "shopify:\/\/shop_images\/image_-_2024-10-24T161104.066.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_liquid_bottom_inner": "",
+        "custom_liquid_bottom": "<div class=\"page-width\">\n<div class=\"horiontal-line-draw\">\n<\/div>\n<\/div>"
+      }
+    },
+    "image_with_text_gVC6Fa": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_9wnwWQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "What is Basant?",
+            "heading_size": "h2"
+          }
+        },
+        "text_UaVQmF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>BASANT: A Revolutionary Polyherbal Microbicide Against STDs, HIV, and HPVInnovative Genital Pathogen Defense Developed by Talwar Research Foundation<\/p>",
+            "text_style": "body"
+          }
+        },
+        "iconwithtext_AxE8km": {
+          "type": "iconwithtext",
+          "settings": {
+            "icon_code_1": "shopify:\/\/shop_images\/image_-_2024-12-16T130316.828.png",
+            "text_1": "<p>Sexually transmitted diseases<\/p>",
+            "icon_code_2": "shopify:\/\/shop_images\/image_-_2024-12-16T130338.062.png",
+            "text_2": "<p>Microbicide<\/p>",
+            "icon_code_3": "shopify:\/\/shop_images\/image_-_2024-12-16T130402.506.png",
+            "text_3": "<p>Genital pathogens<\/p>",
+            "icon_code_4": "shopify:\/\/shop_images\/image_-_2024-12-16T130423.658.png",
+            "text_4": "<p>HIV and HPV<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_Rj4DJj": {
+          "type": "button",
+          "settings": {
+            "button_label": "Know More",
+            "button_link": "#",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_9wnwWQ",
+        "text_UaVQmF",
+        "iconwithtext_AxE8km",
+        "button_Rj4DJj"
+      ],
+      "settings": {
+        "custom_liquid_top": "",
+        "custom_liquid_top_inner": "",
+        "custom_class": "normal-image-with-text-right",
+        "image": "shopify:\/\/shop_images\/image_-_2024-12-13T162537.152.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_liquid_bottom_inner": "<div class=\"horiontal-line-draw\">\n<\/div>",
+        "custom_liquid_bottom": ""
+      }
+    },
+    "image_with_text_jFXN4f": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_QUGKFi": {
+          "type": "heading",
+          "settings": {
+            "heading": "Human Papillomavirus (HPV): A Widespread Viral Infection with Serious Health Risks",
+            "heading_size": "h2"
+          }
+        },
+        "text_mWnyc4": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Common worldwide virus, transmitted primarily through sexual contact.<\/li><li>HPV infection is a leading cause of cervical cancer<\/li><li>Linked to other ano-genital cancers, including cancers of the anus, vulva, vagina, and penis.<\/li><li>Emerging evidence connects HPV to head and neck cancers.<\/li><\/ul>",
+            "text_style": "body"
+          }
+        },
+        "button_HKtUy3": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read More",
+            "button_link": "#",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_QUGKFi",
+        "text_mWnyc4",
+        "button_HKtUy3"
+      ],
+      "custom_css": [
+        ".image-with-text__text + .button {background: transparent !important;}"
+      ],
+      "settings": {
+        "custom_liquid_top": "",
+        "custom_liquid_top_inner": "",
+        "custom_class": "normal-image-with-text-left unic-list-style",
+        "image": "shopify:\/\/shop_images\/image_-_2024-12-13T164527.839.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-5",
+        "color_scheme": "scheme-5",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_liquid_bottom_inner": "",
+        "custom_liquid_bottom": ""
+      }
+    },
+    "image_with_text_BMaFA4": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_J6CGVa": {
+          "type": "heading",
+          "settings": {
+            "heading": "Clinically proven Herbal Formulation for HPV",
+            "heading_size": "h2"
+          }
+        },
+        "text_GGUFzp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>BASANT, a unique herbal formulation for treating the Human papillomavirus which is a prevalent Sexually transmitted Disease (STD) infecting a wide population of Rural and Urban areas.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "iconwithtext_HFaNet": {
+          "type": "iconwithtext",
+          "settings": {
+            "icon_code_1": "shopify:\/\/shop_images\/image_-_2024-12-16T130316.828.png",
+            "text_1": "<p>Sexually transmitted diseases<\/p>",
+            "icon_code_2": "shopify:\/\/shop_images\/image_-_2024-12-16T130338.062.png",
+            "text_2": "<p>Microbicide<\/p>",
+            "icon_code_3": "shopify:\/\/shop_images\/image_-_2024-12-16T130402.506.png",
+            "text_3": "<p>Genital pathogens<\/p>",
+            "icon_code_4": "shopify:\/\/shop_images\/image_-_2024-12-16T130423.658.png",
+            "text_4": "<p>HIV and HPV<\/p>",
+            "text_style": "body"
+          }
+        },
+        "text_fKJFRQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"#\" title=\"#\">Read More<\/a><\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_cEziHq": {
+          "type": "button",
+          "settings": {
+            "button_label": "BUY NOW",
+            "button_link": "#",
+            "button_style_secondary": false,
+            "button_label_2": "ADD TO CART",
+            "button_link_2": "",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_J6CGVa",
+        "text_GGUFzp",
+        "iconwithtext_HFaNet",
+        "text_fKJFRQ",
+        "button_cEziHq"
+      ],
+      "custom_css": [
+        "img.left-top-back-img {display: block !important;}"
+      ],
+      "settings": {
+        "custom_liquid_top": "",
+        "custom_liquid_top_inner": "<div class=\"horiontal-line-draw\">\n<\/div>\n<div class=\"margin-after-line-draw\">\n<\/div>",
+        "custom_class": "normal-image-with-text-left",
+        "image": "shopify:\/\/shop_images\/image_-_2024-12-13T170411.977.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_liquid_bottom_inner": "",
+        "custom_liquid_bottom": ""
+      }
+    },
+    "video_image_with_text_dMhprg": {
+      "type": "video-image-with-text",
+      "blocks": {
+        "heading_YAreiC": {
+          "type": "heading",
+          "settings": {
+            "heading": "Let’s hear what the doctors have to say about Basant.",
+            "heading_size": "h2"
+          }
+        },
+        "text_b9Vwi4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>\"As a doctor, I want to raise awareness about Human Papillomavirus (HPV), a group of viruses that are very common worldwide. HPV is mainly spread through sexual contact, and most people contract it soon after becoming sexually active. What’s concerning is that HPV is a major cause of cervical cancer, and it’s also linked to other cancers, including those of the anus, vulva, vagina, penis, and even the head and neck. Protecting yourself through safe practices and considering HPV vaccination can make a significant difference in reducing these risks. Early detection and regular screenings are crucial for prevention.\"<\/p>",
+            "text_style": "body"
+          }
+        },
+        "right_heading_Xt6WAt": {
+          "type": "right_heading",
+          "settings": {
+            "heading": "-- Dr. Archana",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YAreiC",
+        "text_b9Vwi4",
+        "right_heading_Xt6WAt"
+      ],
+      "settings": {
+        "custom_liquid_top": "",
+        "custom_liquid_top_inner": "<div class=\"horiontal-line-draw\">\n<\/div>\n<div class=\"margin-after-line-draw\">\n<\/div>",
+        "title": "",
+        "heading_size": "h1",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "enable_video_looping": false,
+        "video": "shopify:\/\/files\/videos\/WhatsApp Video 2025-01-01 at 14.44.57 (1).mp4",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_liquid_bottom_inner": "",
+        "custom_liquid_bottom": ""
+      }
+    },
+    "image_with_text_6xHYLd": {
+      "type": "image-with-text",
+      "blocks": {
+        "image_EVbPM4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/logo-hpvbasant-removebg-preview.png"
+          }
+        },
+        "heading_93aLRU": {
+          "type": "heading",
+          "settings": {
+            "heading": "Available Treatments",
+            "heading_size": "h2"
+          }
+        },
+        "text_YwmD9P": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Primary prevention: HPV vaccination.<\/li><li>Secondary prevention: Screening and treatment of pre-cancerous lesions.<\/li><li>Tertiary prevention: Diagnosis and treatment of invasive cervical cancer.<\/li><li>Palliative care: Supportive care for advanced cervical cancer cases.<\/li><\/ul>",
+            "text_style": "body"
+          }
+        },
+        "caption_HwgHWy": {
+          "type": "caption",
+          "settings": {
+            "caption": "About 96,922 new cervical cancer cases are diagnosed annually in India (estimates for 2018).",
+            "text_style": "subtitle",
+            "text_size": "small"
+          }
+        }
+      },
+      "block_order": [
+        "image_EVbPM4",
+        "heading_93aLRU",
+        "text_YwmD9P",
+        "caption_HwgHWy"
+      ],
+      "custom_css": [
+        "p.image-with-text__text.image-with-text__text--caption {font-size: 10px; font-weight: 600;}",
+        ".right-bottom-back-img {display: block !important;}"
+      ],
+      "settings": {
+        "custom_liquid_top": "<div class=\"page-width\">\n<div class=\"horiontal-line-draw\">\n<\/div>\n<\/div>",
+        "custom_liquid_top_inner": "",
+        "custom_class": "normal-image-with-text-left",
+        "image": "shopify:\/\/shop_images\/image_-_2024-12-13T171238.679.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_liquid_bottom_inner": "",
+        "custom_liquid_bottom": "<div class=\"page-width\">\n<div class=\"horiontal-line-draw\">\n<\/div>\n<\/div>"
+      }
+    },
+    "new_card_slider_kRVBxL": {
+      "type": "new-card-slider",
+      "blocks": {
+        "testimonial_aEfkAA": {
+          "type": "testimonial",
+          "settings": {
+            "title": "",
+            "content": "<p>I had been HPV and HPV 16 positive during 2020 and 2021. I treated with HPV Basant in the spring of 2022 and now I tested negative!! This 62 year old woman is very thankful for your product which may have helped me clear the virus.<\/p>",
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-24T104814.129.png",
+            "author": "<strong>Cathurine K<\/strong>",
+            "rating": "<p>catheuks@aol.com<\/p>"
+          }
+        },
+        "testimonial_J9Fn76": {
+          "type": "testimonial",
+          "settings": {
+            "title": "",
+            "content": "<p>I had been HPV and HPV 16 positive during 2020 and 2021. I treated with HPV Basant in the spring of 2022 and now I tested negative!! This 62 year old woman is very thankful for your product which may have helped me clear the virus.<\/p>",
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-24T104814.129.png",
+            "author": "<strong>Cathurine K<\/strong>",
+            "rating": "<p>catheuks@aol.com<\/p>"
+          }
+        },
+        "testimonial_cGNNKg": {
+          "type": "testimonial",
+          "settings": {
+            "title": "",
+            "content": "<p>I had been HPV and HPV 16 positive during 2020 and 2021. I treated with HPV Basant in the spring of 2022 and now I tested negative!! This 62 year old woman is very thankful for your product which may have helped me clear the virus.<\/p>",
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-24T104814.129.png",
+            "author": "<strong>Cathurine K<\/strong>",
+            "rating": "<p>catheuks@aol.com<\/p>"
+          }
+        },
+        "testimonial_iNWgWe": {
+          "type": "testimonial",
+          "settings": {
+            "title": "",
+            "content": "<p>I had been HPV and HPV 16 positive during 2020 and 2021. I treated with HPV Basant in the spring of 2022 and now I tested negative!! This 62 year old woman is very thankful for your product which may have helped me clear the virus.<\/p>",
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-24T104814.129.png",
+            "author": "<strong>Cathurine K<\/strong>",
+            "rating": "<p>catheuks@aol.com<\/p>"
+          }
+        },
+        "testimonial_LDE3yD": {
+          "type": "testimonial",
+          "settings": {
+            "title": "",
+            "content": "<p>I had been HPV and HPV 16 positive during 2020 and 2021. I treated with HPV Basant in the spring of 2022 and now I tested negative!! This 62 year old woman is very thankful for your product which may have helped me clear the virus.<\/p>",
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-24T104814.129.png",
+            "author": "<strong>Cathurine K<\/strong>",
+            "rating": "<p>catheuks@aol.com<\/p>"
+          }
+        },
+        "testimonial_APTKdE": {
+          "type": "testimonial",
+          "settings": {
+            "title": "",
+            "content": "<p>I had been HPV and HPV 16 positive during 2020 and 2021. I treated with HPV Basant in the spring of 2022 and now I tested negative!! This 62 year old woman is very thankful for your product which may have helped me clear the virus.<\/p>",
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-24T104814.129.png",
+            "author": "<strong>Cathurine K<\/strong>",
+            "rating": "<p>catheuks@aol.com<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_aEfkAA",
+        "testimonial_J9Fn76",
+        "testimonial_cGNNKg",
+        "testimonial_iNWgWe",
+        "testimonial_LDE3yD",
+        "testimonial_APTKdE"
+      ],
+      "settings": {
+        "custom_liquid": "<p>Customer Testimonials<\/p>",
+        "description": "",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "custom_liquid_bottom": "<div class=\"page-width\" style=\"position:relative;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0521\/4670\/0449\/files\/image_-_2024-12-24T141244.272.png\" class=\"testimonial-back-img\" >\n<div class=\"margin-after-line-draw\">\n<\/div>\n<div class=\"horiontal-line-draw\">\n<\/div>\n<\/div>"
+      }
+    },
+    "featured_blog_mcQAcV": {
+      "type": "featured-blog",
+      "settings": {
+        "kicker": "#HPVWellness",
+        "heading": "Latest Blogs From Our Wellness Journal",
+        "heading_size": "h2",
+        "blog": "news",
+        "post_limit": 4,
+        "columns_desktop": 4,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "slideshow_i3Y8Ti",
+    "image_with_text_8ae3Pf",
+    "image_with_text_gVC6Fa",
+    "image_with_text_jFXN4f",
+    "image_with_text_BMaFA4",
+    "video_image_with_text_dMhprg",
+    "image_with_text_6xHYLd",
+    "new_card_slider_kRVBxL",
+    "featured_blog_mcQAcV"
+  ]
+}

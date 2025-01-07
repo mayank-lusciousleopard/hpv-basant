@@ -1,0 +1,549 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: calc({{ section.settings.padding_top }}px * 0.75);
+    padding-bottom: calc({{ section.settings.padding_bottom }}px  * 0.75);
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+<div class="new-card-slider-my-section color-{{ section.settings.color_scheme }} gradient">
+  <div class="section-{{ section.id }}-padding">
+   <h2 class="h2 page-width center our-service-sec">{{ section.settings.custom_liquid }}</h2>
+    <div class="rte page-width center">{{ section.settings.description }}</div>
+    <section class="new-cards-slider cards-slider">
+    <div class="container">
+        <div class="content-holder">
+            <ul class="cards-holder">
+              {%- for block in section.blocks -%}
+                <li class="card card{{ forloop.index }}">
+                 
+                    <div class="testimonial_wrapper">
+                <div class="testimonial_content">
+                 <div class="testimonial_content_topp">
+                  <svg width="49" height="37" viewBox="0 0 49 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M28.4268 36.3281V18.4062L41.7236 0.484375H48.6611L37.0986 18.4062H46.3486V36.3281H28.4268ZM0.0986328 36.3281V18.4062L13.3955 0.484375H20.333L8.77051 18.4062H18.0205V36.3281H0.0986328Z" fill="black"/>
+</svg>
+
+                  {% if block.settings.title != blank %}
+                <div class="testimonial_title">
+                  <h2 class="h3">{{ block.settings.title }}</h2>
+                </div>
+              {% endif %}
+                  {%- if block.settings.content != blank -%}
+                    <div class="rte">{{ block.settings.content }}
+                    </div>
+                  {%- endif -%}
+  <svg width="50" height="37" viewBox="0 0 50 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M35.7861 36.9062H28.8486L40.4111 18.4062H31.1611V0.484375H49.083V18.4062L35.7861 36.9062ZM7.45801 36.9062H0.520508L12.083 18.4062H2.83301V0.484375H20.7549V18.4062L7.45801 36.9062Z" fill="black"/>
+</svg>
+</div>
+            <div class="testimonial_content_bottom">
+              <div class="testimonial_content_bottom_inner">
+            {% if block.settings.image != blank %}
+            <div class="testimonial_auth_img">
+                  {{ block.settings.image | image_url: width: 90 | image_tag: loading: 'lazy', class: 'card__image' }}
+                </div>
+              {% endif %}
+            <div class="test_inner-cont">
+                  {%- if block.settings.author != blank -%}
+                    <div class="inline-richtext">{{ block.settings.author }}</div>
+                  {%- endif -%}
+            <div class="cli-inner-icon">
+            {{ block.settings.rating }}
+                  </div>
+            </div>
+              </div>
+            </div>
+                </div>
+              </div>
+                </li>
+              {% endfor %}
+            </ul>
+        </div>
+    </div>
+</section>
+  </div>
+</div>
+
+{{ section.settings.custom_liquid_bottom }}
+
+<style>
+  section.cards-slider * {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+section.cards-slider .section-label {
+  margin-bottom: 30px;
+}
+section.cards-slider ul.cards-holder {
+  /* font-size: 0;
+  letter-spacing: 0; */
+  position: relative;
+  /* height: 300px; */
+}
+section.cards-slider .description {
+  color: black;
+  font-size: 18px;
+}
+section.cards-slider .description .duration, section.cards-slider .description .price {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+section.cards-slider .description .duration {
+  position: relative;
+}
+section.cards-slider .description .info {
+  margin-top: 13px;
+}
+section.cards-slider .description .btn, section.cards-slider .description button {
+  margin-top: 22px;
+  display: block;
+  font-size: 13px;
+  letter-spacing: 0;
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+}
+section.cards-slider .card {
+  background: #fff;
+  transition: none;
+  width: 100%;
+  z-index: 1;
+  position: relative;
+}
+section.cards-slider .card.active {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  left: 0;
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  z-index: 3;
+}
+section.cards-slider .card.active ~ .card {
+  left: 10px;
+  -webkit-transform-origin: 100% 50%;
+          transform-origin: 100% 50%;
+  z-index: 2;
+}
+section.cards-slider .card.active ~ .card + .card {
+  z-index: 1;
+}
+section.cards-slider .card.active ~ .card + .card + .card {
+  z-index: 0;
+}
+
+section.cards-slider .controls {
+  text-align: center;
+}
+section.cards-slider .page {
+  background-color: #aaa;
+  border: 0.2rem solid #666;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0.4rem;
+  height: 1rem;
+  vertical-align: middle;
+  width: 1rem;
+}
+section.cards-slider .page.active {
+  background-color: #666;
+}
+section.cards-slider .arrow-left,
+section.cards-slider .arrow-right {
+  display: block;
+  font-size: 4rem;
+  font-weight: bold;
+  color: #eee;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 4rem;
+}
+section.cards-slider .arrow-left:before,
+section.cards-slider .arrow-right:before {
+  pointer-events: none;
+}
+section.cards-slider .arrow-left:before {
+  content: "<";
+}
+section.cards-slider .arrow-right:after {
+  content: ">";
+}
+
+  section.cards-slider {
+    width: 100%;
+    max-width: 110rem;
+    margin: 0 auto;
+    padding: 0 5rem;
+}
+  #shopify-section-{{section.id}}{
+    overflow: hidden;
+  }
+section.cards-slider .card img.card__image {
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    object-fit: cover;
+    object-position: center;
+}
+section.cards-slider .card .description {
+    position: absolute;
+    /* color: #D0A858; */
+    left: 50%;
+    top: unset;
+    transform: translate(-50%, 0);
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    /* background: rgba(0, 0, 0, 0.75); */
+    bottom: 20px;
+}
+  section.cards-slider .card .description .duration .title {
+    color: #D0A858;
+    margin: 0;
+}
+  section.cards-slider .card, section.cards-slider .card img {
+    border-radius: 15px;
+    border: 0;
+}
+
+  /* my slick css */
+  section.new-cards-slider ul.cards-holder {
+    position: relative;
+    padding: 0;
+    margin: 4rem auto;
+    width: 100%;
+}
+section.new-cards-slider ul.cards-holder .slick-arrow {
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  height: 50px;
+  line-height: 50px;
+  margin-top: -25px;
+  border: none;
+  background: transparent;
+  color: #fff;
+  font-family: monospace;
+  font-size: 5rem;
+  z-index: 300;
+  outline: none;
+}
+section.new-cards-slider ul.cards-holder .slick-prev {
+  left: -50px;
+  text-align: left;
+}
+section.new-cards-slider ul.cards-holder .slick-next {
+  right: -50px;
+  text-align: right;
+}
+section.new-cards-slider ul.cards-holder .slick-slide {
+  width: 400px;
+  /* height: 550px !important; */
+  transition: transform .4s;
+  position: relative; 
+}
+/* section.new-cards-slider ul.cards-holder .slick-slide:after {
+  content:'';
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.5);
+  transition: transform .4s;
+} */
+section.new-cards-slider ul.cards-holder .slick-slide {
+  transform: scale(0.7)  translate(640px);
+}
+section.new-cards-slider ul.cards-holder .slick-slide.slick-center + .slick-slide {
+  transform: scale(0.8) translate(-250px);
+  z-index: 10;
+}
+section.new-cards-slider ul.cards-holder .slick-slide.slick-center + .slick-slide + .slick-slide {
+  transform: scale(0.7)  translate(-640px);
+  z-index: 5;
+}
+section.new-cards-slider ul.cards-holder .slick-slide.slick-active {
+  transform: scale(0.8) translate(250px);
+}
+section.new-cards-slider ul.cards-holder .slick-slide.slick-center {
+  /* margin: 0 -10%; */
+  transform: scale(1);
+  z-index: 30;
+}
+/* section.new-cards-slider ul.cards-holder .slick-center:after {
+  opacity: 0;
+} */
+  section.new-cards-slider ul.cards-holder button.slick-prev, section.new-cards-slider ul.cards-holder button.slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    padding: 0;
+    -webkit-transform: translate(0,-50%);
+    -ms-transform: translate(0,-50%);
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background: #D9D9D9;
+    z-index: 2;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  section.new-cards-slider ul.cards-holder button.slick-arrow:before {
+    display: none;
+}
+section.new-cards-slider ul.cards-holder button.slick-arrow svg {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    fill: #000;
+    vertical-align: middle;
+}
+  section.new-cards-slider ul.cards-holder button.slick-arrow svg path {
+    fill: #000;
+    stroke-width: 1px;
+    stroke: #d9d9d9;
+}
+  section.new-cards-slider ul.cards-holder button.slick-prev {
+    left: -35px;
+}
+section.new-cards-slider ul.cards-holder button.slick-next {
+    right: -35px;
+}
+  section.new-cards-slider ul.cards-holder .slick-slide video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+  section.new-cards-slider ul.cards-holder .slick-slide .duration a.button.button--primary {
+    opacity: 0;
+    visibility: hidden;
+}
+  section.new-cards-slider ul.cards-holder .slick-slide.slick-center .duration a.button.button--primary {
+    opacity: 1;
+    visibility: visible;
+}
+  section.cards-slider ul.slick-dots {
+    bottom: 0;
+    position: relative;
+    margin-top: 1rem;
+}
+  section.cards-slider ul.slick-dots li {
+    width: max-content;
+    height: max-content;
+        margin: 0 3px;
+}
+section.cards-slider ul.slick-dots li button {
+    background: #D9D9D9;
+    border-radius: 100px;
+    width: 10px;
+    height: 10px;
+}
+section.cards-slider ul.slick-dots li.slick-active button {
+       width: 12px;
+    height: 12px;
+  background: #000;
+}
+section.cards-slider ul.slick-dots li button:before {
+    display: none;
+}
+  section.cards-slider .card img.card__image {
+    width: 50px;
+    height: auto;
+}
+  section.new-cards-slider ul.cards-holder button.slick-prev {
+    bottom: -10rem;
+    top: unset;
+    left: calc(50% - 55px);
+}
+  section.new-cards-slider ul.cards-holder button.slick-next {
+    bottom: -10rem;
+    top: unset;
+    left: calc(50% + 5px);
+}
+  @media screen and (max-width: 767px){
+    section.new-cards-slider ul.cards-holder {
+    padding: 0 !important;
+}
+  section.cards-slider {
+    padding: 0 !important;
+}
+    section.new-cards-slider ul.cards-holder .slick-slide {
+  width: 250px;
+  /* height: 450px !important; */
+  transition: transform .4s;
+  position: relative; 
+}
+section.new-cards-slider ul.cards-holder .slick-slide {
+  transform: scale(0.7)  translate(320px);
+}
+section.new-cards-slider ul.cards-holder .slick-slide.slick-center + .slick-slide {
+  transform: scale(0.8) translate(-125px);
+  z-index: 10;
+}
+section.new-cards-slider ul.cards-holder .slick-slide.slick-center + .slick-slide + .slick-slide {
+  transform: scale(0.7)  translate(-320px);
+  z-index: 5;
+}
+section.new-cards-slider ul.cards-holder .slick-slide.slick-active {
+  transform: scale(0.8) translate(125px);
+}
+    section.new-cards-slider ul.cards-holder .slick-slide.slick-center {
+  transform: scale(1);
+}
+  }
+</style>
+
+<script>
+  $('section.new-cards-slider ul.cards-holder').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  arrows: true,
+  dots: false,
+  centerMode: true,
+  variableWidth: true,
+  infinite: true,
+  focusOnSelect: true,
+  cssEase: 'linear',
+  touchMove: true,
+  prevArrow:'<button class="slick-prev"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">  <g clip-path="url(#clip0_97_3280)">    <path fill-rule="evenodd" clip-rule="evenodd" d="M11.0556 15.0576C10.8056 15.3076 10.6652 15.6467 10.6652 16.0002C10.6652 16.3538 10.8056 16.6929 11.0556 16.9429L18.5982 24.4856C18.7212 24.6129 18.8684 24.7145 19.031 24.7844C19.1937 24.8543 19.3687 24.891 19.5457 24.8926C19.7227 24.8941 19.8983 24.8604 20.0622 24.7933C20.226 24.7263 20.3749 24.6273 20.5001 24.5021C20.6253 24.3769 20.7243 24.228 20.7913 24.0642C20.8584 23.9003 20.8921 23.7247 20.8906 23.5477C20.889 23.3707 20.8523 23.1957 20.7824 23.033C20.7125 22.8704 20.6109 22.7232 20.4836 22.6002L13.8836 16.0002L20.4836 9.40024C20.7265 9.14877 20.8608 8.81197 20.8578 8.46237C20.8548 8.11278 20.7145 7.77836 20.4673 7.53115C20.2201 7.28394 19.8857 7.14371 19.5361 7.14068C19.1865 7.13764 18.8497 7.27203 18.5982 7.51491L11.0556 15.0576Z" fill="white"/>  </g>  <defs>    <clipPath id="clip0_97_3280">      <rect width="32" height="32" fill="white" transform="matrix(-1 0 0 1 32 0)"/>    </clipPath>  </defs></svg></button>',
+  nextArrow:'<button class="slick-next"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">  <g clip-path="url(#clip0_97_3286)">    <path fill-rule="evenodd" clip-rule="evenodd" d="M20.9444 15.0576C21.1944 15.3076 21.3348 15.6467 21.3348 16.0002C21.3348 16.3538 21.1944 16.6929 20.9444 16.9429L13.4018 24.4856C13.2788 24.6129 13.1316 24.7145 12.969 24.7844C12.8063 24.8543 12.6313 24.891 12.4543 24.8926C12.2773 24.8941 12.1017 24.8604 11.9378 24.7933C11.774 24.7263 11.6251 24.6273 11.4999 24.5021C11.3747 24.3769 11.2757 24.228 11.2087 24.0642C11.1416 23.9003 11.1079 23.7247 11.1094 23.5477C11.111 23.3707 11.1477 23.1957 11.2176 23.033C11.2875 22.8704 11.3891 22.7232 11.5164 22.6002L18.1164 16.0002L11.5164 9.40024C11.2735 9.14877 11.1392 8.81197 11.1422 8.46237C11.1452 8.11278 11.2855 7.77836 11.5327 7.53115C11.7799 7.28394 12.1143 7.14371 12.4639 7.14068C12.8135 7.13764 13.1503 7.27203 13.4018 7.51491L20.9444 15.0576Z" fill="white"/>  </g>  <defs>    <clipPath id="clip0_97_3286">      <rect width="32" height="32" fill="white"/>    </clipPath>  </defs></svg></button>',
+  responsive: [
+      {
+        breakpoint: 767,
+        settings: {
+           arrows: true,
+           dots: false
+        }
+      },
+  ]
+});
+
+  {% comment %}
+var imgs = $('section.new-cards-slider ul.cards-holder img');
+imgs.each(function(){
+  var item = $(this).closest('.slick-slide');
+  item.css({
+    'background-image': 'url(' + $(this).attr('src') + ')', 
+    'background-position': 'center',            
+    '-webkit-background-size': 'cover',
+    'background-size': 'cover', 
+  });
+  $(this).hide();
+});
+{% endcomment %}
+</script>
+
+{% schema %}
+{
+  "name": "New Card Slider",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "richtext",
+      "id": "custom_liquid",
+      "label": "t:sections.custom-liquid.settings.custom_liquid.label",
+      "info": "t:sections.custom-liquid.settings.custom_liquid.info"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "background-1"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 52
+    },
+    {
+      "type": "liquid",
+      "id": "custom_liquid_bottom",
+      "label": "Custom Liquid Bottom"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "testimonial",
+      "name": "testimonial",
+      "settings": [
+        {
+      "type": "inline_richtext",
+      "id": "title",
+      "default": "Multicolumn",
+      "label": "t:sections.multicolumn.settings.title.label"
+    },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Content",
+          "default": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Avatar"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "author",
+          "label": "Title"
+        },
+        {
+          "type": "richtext",
+          "id": "rating",
+          "label": "Content"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "New Card Slider"
+    }
+  ]
+}
+{% endschema %}

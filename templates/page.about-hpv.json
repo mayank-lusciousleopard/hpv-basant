@@ -1,0 +1,348 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "slideshow_kXteHh": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_fJAfUf": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-26T114242.671.png",
+            "mobile_image": "shopify:\/\/shop_images\/image_-_2024-12-26T114242.671.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_fJAfUf"
+      ],
+      "custom_css": [
+        ".slideshow__text-wrapper {display: none;}"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "latest_image_with_text_cHKmAV": {
+      "type": "latest-image-with-text",
+      "blocks": {
+        "heading_bmmPex": {
+          "type": "heading",
+          "settings": {
+            "heading": "What is HPV?",
+            "heading_size": "h1"
+          }
+        },
+        "text_heTTCR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Human papillomavirus (HPV) is a group of viruses that are extremely common worldwide. HPV is mainly transmitted through sexual contact and most people are infected with HPV shortly after the onset of sexual activity. Human papillomavirus (HPV) infection is now a well-established cause of cervical cancer and there is growing evidence of HPV being a relevant factor in other ano genital cancers (anus, vulva, vagina and penis) as well as head and neck cancers.<\/p><p>There are more than 100 types of HPV identified .<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_bmmPex",
+        "text_heTTCR"
+      ],
+      "settings": {
+        "custom_liquid_top": "",
+        "custom_liquid_top_inner": "",
+        "custom_class": "normal-image-with-text-right",
+        "image": "shopify:\/\/shop_images\/image_-_2024-12-26T114353.550.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_liquid_bottom_inner": "",
+        "custom_liquid_bottom": "<div class=\"page-width\">\n<div class=\"horiontal-line-draw\">\n<\/div>\n<\/div>"
+      }
+    },
+    "rich_text_agp43x": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6tHYEB": {
+          "type": "heading",
+          "settings": {
+            "heading": "High-risk HPV types can cause cancer.",
+            "heading_size": "h2"
+          }
+        },
+        "text_bDAKha": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Atleast 16 kinds of highrisk HPV are recognized as the root cause of most cancer. 16, 18, 31, 33, 34, 35, 39, 45, 51, 52, 56, 58, 59, 66, 68, and 70 types. HPV types 16 and 18 are responsible for about 70% of all cervical cancer cases worldwide<\/li><\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6tHYEB",
+        "text_bDAKha"
+      ],
+      "settings": {
+        "custom_liquid_top": "",
+        "custom_liquid_top_inner": "",
+        "real_full_width": false,
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 20,
+        "custom_liquid_bottom_inner": "",
+        "custom_liquid_bottom": ""
+      }
+    },
+    "rich_text_wqnJG4": {
+      "type": "rich-text",
+      "blocks": {
+        "image_B3wUPD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-26T115438.114.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_B3wUPD"
+      ],
+      "settings": {
+        "custom_liquid_top": "",
+        "custom_liquid_top_inner": "",
+        "real_full_width": false,
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 36,
+        "custom_liquid_bottom_inner": "",
+        "custom_liquid_bottom": ""
+      }
+    },
+    "rich_text_tnMT3A": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6fHKFF": {
+          "type": "heading",
+          "settings": {
+            "heading": "Low-risk HPV types do not cause cancer.",
+            "heading_size": "h2"
+          }
+        },
+        "text_R3D4x6": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Low-risk HPV types include types 6, 11, 42, 43, and 44.<\/li><li>Some other disease may occur ,including genital warts 44.About 96,922 new cervical cancer cases are diagnosed annually in India (estimates for 2018).<\/li><li>Cervical cancer ranks as the 2nd leading cause of female cancer in India.<\/li><li>About 60,078 cervical cancer deaths occur annually in India (estimates for 2018).<\/li><li>Cervical cancer is the 2 th most common female cancer in women aged 15 to 44 years in India<\/li><\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6fHKFF",
+        "text_R3D4x6"
+      ],
+      "settings": {
+        "custom_liquid_top": "",
+        "custom_liquid_top_inner": "",
+        "real_full_width": false,
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_liquid_bottom_inner": "",
+        "custom_liquid_bottom": ""
+      }
+    },
+    "latest_image_with_text_rQ4AEE": {
+      "type": "latest-image-with-text",
+      "blocks": {
+        "heading_azCEp8": {
+          "type": "heading",
+          "settings": {
+            "heading": "Available Treatment for HPV",
+            "heading_size": "h2"
+          }
+        },
+        "text_p7K8b3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Available cervical cancer control includes primary prevention (vaccination against HPV), secondary prevention (screening and treatment of pre-cancerous lesions), tertiary prevention (diagnosis and treatment of invasive cervical cancer) and palliative care.<\/p><p>About 96,922 new cervical cancer cases are diagnosed annually in India (estimates for 2018).<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_azCEp8",
+        "text_p7K8b3"
+      ],
+      "settings": {
+        "custom_liquid_top": "<div class=\"page-width\">\n<div class=\"horiontal-line-draw\">\n<\/div>\n<\/div>",
+        "custom_liquid_top_inner": "",
+        "custom_class": "normal-image-with-text-right",
+        "image": "shopify:\/\/shop_images\/image_-_2024-12-26T114516.384.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_liquid_bottom_inner": "",
+        "custom_liquid_bottom": "<div class=\"page-width\">\n<div class=\"horiontal-line-draw\">\n<\/div>\n<\/div>"
+      }
+    },
+    "rich_text_fNGJbV": {
+      "type": "rich-text",
+      "blocks": {
+        "text_7qQKKe": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Prevalence of Sexually transmitted infections in different age groups of  Women<\/strong><\/p>"
+          }
+        },
+        "image_aYcHRn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-26T114624.028.png"
+          }
+        }
+      },
+      "block_order": [
+        "text_7qQKKe",
+        "image_aYcHRn"
+      ],
+      "settings": {
+        "custom_liquid_top": "",
+        "custom_liquid_top_inner": "",
+        "real_full_width": false,
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "custom_liquid_bottom_inner": "",
+        "custom_liquid_bottom": ""
+      }
+    },
+    "video_multicolumn_MeWeV4": {
+      "type": "video-multicolumn",
+      "blocks": {
+        "column_zNTfqT": {
+          "type": "column",
+          "settings": {
+            "enable_video_looping": false,
+            "video": "shopify:\/\/files\/videos\/WhatsApp Video 2025-01-01 at 14.44.57.mp4",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": "",
+            "full_width": false,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_TwpL9F": {
+          "type": "column",
+          "settings": {
+            "enable_video_looping": false,
+            "video": "shopify:\/\/files\/videos\/WhatsApp Video 2025-01-01 at 14.44.57 (1).mp4",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": "",
+            "full_width": false,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_pra9KP": {
+          "type": "column",
+          "settings": {
+            "enable_video_looping": false,
+            "video": "shopify:\/\/files\/videos\/WhatsApp Video 2025-01-01 at 14.44.57 (2).mp4",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": "",
+            "full_width": false,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_zNTfqT",
+        "column_TwpL9F",
+        "column_pra9KP"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_kXteHh",
+    "latest_image_with_text_cHKmAV",
+    "rich_text_agp43x",
+    "rich_text_wqnJG4",
+    "rich_text_tnMT3A",
+    "latest_image_with_text_rQ4AEE",
+    "rich_text_fNGJbV",
+    "video_multicolumn_MeWeV4"
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "slideshow_kXteHh": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_fJAfUf": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-26T135625.875.png",
+            "mobile_image": "shopify:\/\/shop_images\/image_-_2024-12-26T135625.875.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_fJAfUf"
+      ],
+      "custom_css": [
+        ".slideshow__text-wrapper {display: none;}"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "new_card_slider_abmXrN": {
+      "type": "new-card-slider",
+      "blocks": {
+        "testimonial_b84Xgy": {
+          "type": "testimonial",
+          "settings": {
+            "title": "",
+            "content": "<p>I had been HPV and HPV 16 positive during 2020 and 2021. I treated with HPV Basant in the spring of 2022 and now I tested negative!! This 62 year old woman is very thankful for your product which may have helped me clear the virus.<\/p>",
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-24T104814.129.png",
+            "author": "<strong>Cathurine K<\/strong>",
+            "rating": "<p>catheuks@aol.com<\/p>"
+          }
+        },
+        "testimonial_agwAXQ": {
+          "type": "testimonial",
+          "settings": {
+            "title": "",
+            "content": "<p>I had been HPV and HPV 16 positive during 2020 and 2021. I treated with HPV Basant in the spring of 2022 and now I tested negative!! This 62 year old woman is very thankful for your product which may have helped me clear the virus.<\/p>",
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-24T104814.129.png",
+            "author": "<strong>Cathurine K<\/strong>",
+            "rating": "<p>catheuks@aol.com<\/p>"
+          }
+        },
+        "testimonial_tJDVXM": {
+          "type": "testimonial",
+          "settings": {
+            "title": "",
+            "content": "<p>I had been HPV and HPV 16 positive during 2020 and 2021. I treated with HPV Basant in the spring of 2022 and now I tested negative!! This 62 year old woman is very thankful for your product which may have helped me clear the virus.<\/p>",
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-24T104814.129.png",
+            "author": "<strong>Cathurine K<\/strong>",
+            "rating": "<p>catheuks@aol.com<\/p>"
+          }
+        },
+        "testimonial_BGhPAV": {
+          "type": "testimonial",
+          "settings": {
+            "title": "",
+            "content": "<p>I had been HPV and HPV 16 positive during 2020 and 2021. I treated with HPV Basant in the spring of 2022 and now I tested negative!! This 62 year old woman is very thankful for your product which may have helped me clear the virus.<\/p>",
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-24T104814.129.png",
+            "author": "<strong>Cathurine K<\/strong>",
+            "rating": "<p>catheuks@aol.com<\/p>"
+          }
+        },
+        "testimonial_T7E3hK": {
+          "type": "testimonial",
+          "settings": {
+            "title": "",
+            "content": "<p>I had been HPV and HPV 16 positive during 2020 and 2021. I treated with HPV Basant in the spring of 2022 and now I tested negative!! This 62 year old woman is very thankful for your product which may have helped me clear the virus.<\/p>",
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-24T104814.129.png",
+            "author": "<strong>Cathurine K<\/strong>",
+            "rating": "<p>catheuks@aol.com<\/p>"
+          }
+        },
+        "testimonial_n4bNb7": {
+          "type": "testimonial",
+          "settings": {
+            "title": "",
+            "content": "<p>I had been HPV and HPV 16 positive during 2020 and 2021. I treated with HPV Basant in the spring of 2022 and now I tested negative!! This 62 year old woman is very thankful for your product which may have helped me clear the virus.<\/p>",
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-24T104814.129.png",
+            "author": "<strong>Cathurine K<\/strong>",
+            "rating": "<p>catheuks@aol.com<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_b84Xgy",
+        "testimonial_agwAXQ",
+        "testimonial_tJDVXM",
+        "testimonial_BGhPAV",
+        "testimonial_T7E3hK",
+        "testimonial_n4bNb7"
+      ],
+      "settings": {
+        "custom_liquid": "<p>Customer Testimonials<\/p>",
+        "description": "",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 64,
+        "custom_liquid_bottom": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_kXteHh",
+    "new_card_slider_abmXrN"
+  ]
+}
